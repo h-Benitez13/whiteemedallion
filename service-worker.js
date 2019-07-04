@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whiteemedallion/precache-manifest.2197520ec0f181a652d35894bb8d53b4.js"
+  "/whiteemedallion/precache-manifest.ac1db5f38de880c4d3cbde8dec02ef50.js"
 );
 
 self.addEventListener('message', (event) => {
