@@ -7,7 +7,8 @@ import "./App.css";
 export const App = () => {
   return (
     <renderTime>
-      <Countdown date={Date.now() + 31547000000} renderer={renderTime} />
+      <Countdown date={Date.now() + 31621999999} renderer={renderTime} />
+
       <div className="App vh-100">
         <video
           className="fr mr6 mt5"
