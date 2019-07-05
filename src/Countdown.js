@@ -8,7 +8,7 @@ function renderTime({ days, hours, minutes, seconds, completed }) {
     return <Completionist />;
   } else {
     return (
-      <div className="mt5">
+      <div className="mt6 mb5">
         <h1 className="dib fl w-100 f1  ">
           {days}: {hours}: {minutes}: {seconds}
         </h1>
