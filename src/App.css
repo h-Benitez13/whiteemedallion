@@ -8,18 +8,13 @@ h1 {
   text-align: center;
 }
 
-.App {
-  text-align: right;
-  background-image: url("./Logo/Logo.jpeg");
-  background-position: center right;
-  background-size: 85%;
-  background-repeat: no-repeat;
-  margin-top: 15px;
+video {
+  cursor: pointer;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
