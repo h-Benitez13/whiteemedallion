@@ -1,17 +1,18 @@
 @font-face {
   font-family: medal;
-  src: url("./Fonts/911porschav33d.ttf");
+  src: url("./Fonts/911porschav3expandital.ttf");
 }
 
 h1 {
   font-family: medal;
+  text-align: center;
 }
 
 .App {
   text-align: right;
   background-image: url("./Logo/Logo.jpeg");
-  background-position: center;
-  background-size: 80%;
+  background-position: center right;
+  background-size: 85%;
   background-repeat: no-repeat;
   margin-top: 15px;
 }
