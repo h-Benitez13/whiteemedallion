@@ -26,9 +26,3 @@ video {
 .App-link {
   color: #61dafb;
 }
-
-@media (max-width: 500) {
-  video {
-    margin: 0px;
-  }
-}
