@@ -11,7 +11,7 @@ export const App = () => {
 
       <div className="App vh-100">
         <video
-          className="fr-ns ph7 mt5 "
+          className="fr ph4 mt5 "
           src={Video1}
           width="300"
           height="400"
