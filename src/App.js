@@ -6,8 +6,13 @@ import "./App.css";
 
 export const App = () => {
   return (
-    <renderTime>
-      <Countdown date={Date.now() + 31621999999} renderer={renderTime} />
+    <div>
+      <renderTime>
+        <Countdown
+          date={new Date("Sat, 4 July 2020 09:30:00")}
+          renderer={renderTime}
+        />
+      </renderTime>
 
       <div className="App vh-100">
         <video
@@ -20,6 +25,6 @@ export const App = () => {
           loop
         />
       </div>
-    </renderTime>
+    </div>
   );
 };

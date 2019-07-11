@@ -1,6 +1,6 @@
 import React from "react";
 
-function renderTime({ days, hours, minutes, seconds, completed }) {
+const renderTime = ({ days, hours, minutes, seconds, completed }) => {
   const Completionist = () => (
     <h1 className="fl w-100 f1 mt4 ml6 pl4"> WE LIVE BABY!</h1>
   );
@@ -16,6 +16,6 @@ function renderTime({ days, hours, minutes, seconds, completed }) {
       </div>
     );
   }
-}
+};
 
 export default renderTime;
