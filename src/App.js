@@ -9,7 +9,7 @@ export const App = () => {
     <div>
       <renderTime>
         <Countdown
-          date={new Date("Sat, 4 July 2020 09:30:00")}
+          date={new Date("Sat, 4 July 2020 09:30:00") + Date.now()}
           renderer={renderTime}
         />
       </renderTime>
